@@ -3,11 +3,13 @@ import './App.css';
 import State from './State';
 import Effect from './Effect';
 import Context from './Context';
+import Reducer from './Reducer';
+import Reducer2 from './Reducer2';
 
 function App() {
 	return (
 		<>
-			<Context />
+			<Reducer2 />
 		</>
 	);
 }
