@@ -46,7 +46,7 @@ const reducer = (state, action) => {
 	}
 };
 
-export function Reducer2() {
+export default function Reducer2() {
 	const [name, setName] = useState('');
 	const [studentInfo, dispatch] = useReducer(reducer, initialState);
 	return (
